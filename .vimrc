@@ -54,7 +54,6 @@ set shiftwidth=3
 set expandtab
 set paste
 highlight LineNr ctermfg=grey
-highlight CursorLine ctermbg=LightBlue
 call pathogen#infect()
 inoremap <C-v> <ESC>"+pa
 vnoremap <C-c> "+y
