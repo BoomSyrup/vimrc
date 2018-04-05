@@ -18,6 +18,8 @@ Plugin 'tpope/vim-fugitive'
 " Plugin 'L9'
 " Git plugin not hosted on GitHub
 Plugin 'git://git.wincent.com/command-t.git'
+" git repos on your local machine (i.e. when working on your own plugin)
+Plugin 'file:///home/gmarik/path/to/plugin'
 " The sparkup vim script is in a subdirectory of this repo called vim.
 " Pass the path to set the runtimepath properly.
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
@@ -53,7 +55,10 @@ set shiftwidth=3
 " On pressing tab, insert 4 spaces
 set expandtab
 set paste
+<<<<<<< HEAD
 highlight LineNr ctermfg=white
+=======
+>>>>>>> 9c78e31f7e801f6cdb629cd15d939460e7caf00a
 call pathogen#infect()
 inoremap <C-v> <ESC>"+pa
 vnoremap <C-c> "+y
